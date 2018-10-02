@@ -21,7 +21,7 @@ A utility to perform design-time builds of .NET projects without having to think
 
 ## What Is It?
 
-Buildalyzer lets you run MSBuild from your own code and returns information about the project. By default, it runs a [design-time build](https://daveaglick.com/posts/running-a-design-time-build-with-msbuild-apis) which is higher performance than a normal build because it doesn't actually try to compile the project. You can use it to perform analysis of MSBuild projects, get project properties, or create a Roslyn Workspace using [Buildalyzer.Workspaces](https://www.nuget.org/packages/Buildalyzer.Workspaces/). It runs MSBuild out-of-process and therefore should work anywhere, anytime, and on any platform you can build the project yourself manually on the command line.
+Buildalyzer lets you run MSBuild from your own code and returns information about the project. By default, it runs a [design-time build](https://daveaglick.com/posts/running-a-design-time-build-with-msbuild-apis) which is higher performance than a normal build because it doesn't actually try to compile the project. You can use it to perform analysis of MSBuild projects, get project properties, or create a Roslyn Workspace using [Buildalyzer.Workspaces](https://www.nuget.org/packages/Buildalyzer.Workspaces/). It runs MSBuild out-of-process and therefore should work anywhere, anytime, and on any platform where you can build the project on the command line.
 
 
 ```csharp
